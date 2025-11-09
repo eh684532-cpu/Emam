@@ -4,7 +4,7 @@ module.exports.config = {
 	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
 	hasPermssion: 2,
 	description: "Manage bot's waiting messages",
-	commandCategory: "system",
+	commandCategory: "Admin",
 	cooldowns: 5
 };
 
