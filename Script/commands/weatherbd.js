@@ -7,7 +7,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: 'Mohammad Akash',
     description: 'Get weather info for any major Bangladesh city using /weather <city>',
-    commandCategory: 'utility',
+    commandCategory: 'media',
     usages: '/weather <city>',
     cooldowns: 3
 };
