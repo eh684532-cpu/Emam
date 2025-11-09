@@ -9,7 +9,7 @@ module.exports.config = {
  hasPermssion: 0,
  credits: "ULLASH",
  description: "Upload media to Catbox",
- commandCategory: "media",
+ commandCategory: "Tools",
  usages: "[reply to image/video/audio]",
  cooldowns: 5
 };
