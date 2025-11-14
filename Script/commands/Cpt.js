@@ -9,7 +9,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: 'Mohammad Akash',
     description: 'This command is for using my bot in your group.',
-    commandCategory: 'noPrefix',
+    commandCategory: 'Info',
     usages: '/',
     cooldowns: 11,
     dependencies: {
@@ -32,14 +32,18 @@ module.exports.run = async function({ api, event }) {
 /Bot  
 /Info  
 
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫➢ 𝐌ohammad Emam`;
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫➢𝐌𝐞𝐡𝐞𝐝𝐢 𝐇𝐚𝐬𝐬𝐚𝐧`;
 
     // লোকাল ফাইল path
     const filePath = path.join(__dirname, 'cyber.jpg');
 
     // নতুন ইমেজ লিংকগুলো
     const images = [
-        '"https://i.imgur.com/EZq4UgC.jpeg",'''   ];
+        'https://i.imgur.com/22jvZAY.jpeg',
+        'https://i.imgur.com/RRfliha.jpeg',
+        'https://i.imgur.com/22jvZAY.jpeg',
+        'https://i.imgur.com/RRfliha.jpeg'
+    ];
 
     // র্যান্ডম ইমেজ বেছে নেওয়া
     const imageUrl = images[Math.floor(Math.random() * images.length)];
