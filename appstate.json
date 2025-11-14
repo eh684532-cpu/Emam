@@ -1,119 +1,63 @@
-[
-    {
-        "key": "dbln",
-        "value": "%7B%2261581694166298%22%3A%22TzyqvcZD%22%7D",
-        "domain": "facebook.com",
-        "path": "/login/device-based/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "sb",
-        "value": "SnoQaeyqqfrTUcGzUJujsQwi",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "ps_l",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "ps_n",
-        "value": "1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "vpd",
-        "value": "v1%3B778x393x2.75",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "datr",
-        "value": "ohITaZN7lf_W_R87F1wwr3-m",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "c_user",
-        "value": "61583882484169",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "xs",
-        "value": "29%3AqA-PfEGAx2ZaEg%3A2%3A1762969108%3A-1%3A-1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "locale",
-        "value": "bn_IN",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "pas",
-        "value": "61581694166298%3ABVf6fOapjq%2C61583882484169%3AYJfTQtW9xg",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "fr",
-        "value": "0JeIDEjV6Dn3UMnAR.AWf3GHpCVszMhYHWSpLOJf8fi-K9hTeBlofpcK496uXvttQe3IY.BpEHpI..AAA.0.0.BpFj8V.AWfSEbCZoX7s9Aeq9t_zkbBh1mI",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "fbl_st",
-        "value": "101717290%3BT%3A29384427",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
-    },
-    {
-        "key": "wl_cbv",
-        "value": "v2%3Bclient_version%3A2984%3Btimestamp%3A1763065622",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-11-13T20:27:11.740Z",
-        "lastAccessed": "2025-11-13T20:27:11.740Z"
+const axios = require('axios');
+const fs = require('fs-extra');
+const path = require('path');
+const request = require('request');
+
+module.exports.config = {
+    name: '\n',
+    version: '1.0.0',
+    hasPermssion: 0,
+    credits: 'Mohammad Akash',
+    description: 'This command is for using my bot in your group.',
+    commandCategory: 'Info',
+    usages: '/',
+    cooldowns: 11,
+    dependencies: {
+        'request': '',
+        'fs-extra': '',
+        'axios': ''
     }
-]
+};
+
+module.exports.run = async function({ api, event }) {
+    const Stream = require('fs-extra');
+
+    // একবারে পুরো লেখা
+    const messageBody = `🌸 Assalamualaikum 🌸  
+🌺 Thanks you so much for using my bot your group ❤️‍🩹  
+😻 I will you are members enjoy!🤗  
+
+☢️ To view any command 📌  
+/Help  
+/Bot  
+/Info  
+
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫➢𝐌𝐞𝐡𝐞𝐝𝐢 𝐇𝐚𝐬𝐬𝐚𝐧`;
+
+    // লোকাল ফাইল path
+    const filePath = path.join(__dirname, 'cyber.jpg');
+
+    // নতুন ইমেজ লিংকগুলো
+    const images = [
+        'https://i.imgur.com/22jvZAY.jpeg',
+        'https://i.imgur.com/RRfliha.jpeg',
+        'https://i.imgur.com/22jvZAY.jpeg',
+        'https://i.imgur.com/RRfliha.jpeg'
+    ];
+
+    // র্যান্ডম ইমেজ বেছে নেওয়া
+    const imageUrl = images[Math.floor(Math.random() * images.length)];
+    const imageStream = request.get(encodeURI(imageUrl)).pipe(Stream.createWriteStream(filePath));
+
+    // ইমেজ ডাউনলোড শেষ হলে মেসেজ পাঠানো
+    imageStream.on('close', () => {
+        api.sendMessage(
+            {
+                body: messageBody,
+                attachment: Stream.createReadStream(filePath)
+            },
+            event.threadID,
+            () => Stream.unlinkSync(filePath) // পাঠানোর পরে ফাইল ডিলিট
+        );
+    });
+};
