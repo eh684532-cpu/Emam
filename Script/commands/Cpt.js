@@ -39,10 +39,10 @@ module.exports.run = async function({ api, event }) {
 
     // নতুন ইমেজ লিংকগুলো
     const images = [
-        'https://i.imgur.com/22jvZAY.jpeg',
-        'https://i.imgur.com/RRfliha.jpeg',
-        'https://i.imgur.com/22jvZAY.jpeg',
-        'https://i.imgur.com/RRfliha.jpeg'
+        'https://i.imgur.com/pUi3vBR.jpeg,',
+        'https://i.imgur.com/pUi3vBR.jpeg,',
+        'https://i.imgur.com/pUi3vBR.jpeg,',
+        'https://i.imgur.com/pUi3vBR.jpeg,'
     ];
 
     // র্যান্ডম ইমেজ বেছে নেওয়া
