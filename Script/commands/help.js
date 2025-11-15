@@ -85,7 +85,7 @@ module.exports.run = async function ({ api, event, args }) {
 
     msg += "━━━━━━━━━━━━━━━━━━━\n";
     msg += `💡 𝚃𝙸𝙿: 𝚄𝚂𝙴 "${global.config.PREFIX || "/"}help [command]" 𝚃𝙾 𝙶𝙴𝚃 𝙵𝚄𝙻𝙻 𝙳𝙴𝚃𝙰𝙸𝙻𝚂.\n`;
-    msg += "🪄 𝙱𝙾𝚃 𝙱𝚈: 𝙼𝙾𝙷𝙰𝙼𝙼𝙰𝙳 𝙰𝙺𝙰𝚂𝙷 ✨";
+    msg += "🪄 𝙱𝙾𝚃 𝙱𝚈: 𝙼𝙾𝙷𝙰𝙼𝙼𝙰𝙳 𝐄𝐌𝐀𝐌 ✨";
 
     // Download and send GIF
     const imgPath = __dirname + "/cache/helppic.gif";
