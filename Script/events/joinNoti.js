@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 module.exports.config = {
   name: "welcome",
   version: "2.3",
-  credits: "Mohammad Akash",
+  credits: "Mohammad 𝐄𝐌𝐀𝐌",
   description: "Send custom welcome message when new members join",
   eventType: ["log:subscribe"],
   dependencies: {
