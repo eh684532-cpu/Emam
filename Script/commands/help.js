@@ -6,7 +6,7 @@ module.exports.config = {
   name: "help",
   version: "2.0.3",
   hasPermssion: 0,
-  credits: "MOHAMMAD AKASH",
+  credits: "MOHAMMAD 𝐄𝐌𝐀𝐌",
   description: "Auto detects all commands and groups by category in styled format",
   commandCategory: "system",
   usages: "[command name]",
