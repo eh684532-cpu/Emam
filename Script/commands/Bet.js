@@ -41,7 +41,7 @@ module.exports.config = {
   name: "bet",
   version: "1.0",
   hasPermission: 0,
-  credits: "MOHAMMAD AKASH",
+  credits: "MOHAMMAD 𝐄𝐌𝐀𝐌",
   description: "Casino-style bet with Neon Glow",
   commandCategory: "game",
   usages: "[amount]",
