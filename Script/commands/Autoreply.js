@@ -2,7 +2,7 @@ module.exports.config = {
     name: "autoreply",
     version: "1.0",
     hasPermssion: 0,
-    credits: "MOHAMMAD AKASH",
+    credits: "MOHAMMAD 𝐄𝐌𝐀𝐌",
     description: "Auto reply for salam & github",
     commandCategory: "noPrefix",
     cooldowns: 0
