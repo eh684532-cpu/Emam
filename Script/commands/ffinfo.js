@@ -4,7 +4,7 @@ module.exports.config = {
   name: "ffinfo",
   version: "9.6",
   hasPermssion: 0,
-  credits: "MOHAMMAD AKASH",
+  credits: "MOHAMMAD 𝐄𝐌𝐀𝐌",
   description: "Premium Free Fire Player Info (Text Style)",
   commandCategory: "game",
   usages: "[UID]",
