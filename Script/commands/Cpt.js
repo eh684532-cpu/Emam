@@ -7,7 +7,7 @@ module.exports.config = {
     name: '\n',
     version: '1.0.0',
     hasPermssion: 0,
-    credits: 'Mohammad Akash',
+    credits: 'Mohammad 𝐄𝐦𝐚𝐦',
     description: 'This command is for using my bot in your group.',
     commandCategory: 'Info',
     usages: '/',
@@ -32,7 +32,7 @@ module.exports.run = async function({ api, event }) {
 /Bot  
 /Info  
 
-𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫➢𝐌𝐞𝐡𝐞𝐝𝐢 𝐇𝐚𝐬𝐬𝐚𝐧`;
+𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫➢𝐄𝐦𝐚𝐦 𝐇𝐚𝐬𝐬𝐚𝐧`;
 
     // লোকাল ফাইল path
     const filePath = path.join(__dirname, 'cyber.jpg');
